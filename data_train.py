@@ -13,8 +13,11 @@ check_and_make_directories([TRAINED_MODEL_DIR])
 
 train = pd.read_csv('train_data.csv')
 
+
 train = train.set_index(train.columns[0])
 train.index.names = ['']
+
+
 
 stock_dimension = len(train.tic.unique())
 state_space = 1 + 2*stock_dimension + len(INDICATORS)*stock_dimension
@@ -35,7 +38,6 @@ env_kwargs = {
     "action_space": stock_dimension,
     "reward_scaling": 1e-4
 }
-
 
 e_train_gym = StockTradingEnv(df = train, **env_kwargs)
 

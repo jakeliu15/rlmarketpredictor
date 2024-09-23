@@ -1,12 +1,12 @@
-# rltradebot
+# Reinforced Learning Market Predictor
 
-# FinRL Stock Trading Project
+# FinRL Market Prediction Project
 
-This project implements a reinforcement learning-based stock trading system using the FinRL library. It trains and evaluates various RL algorithms for automated stock trading.
+This project implements a reinforcement learning-based stock trading system using the FinRL library. It trains and evaluates various RL algorithms for market trend prediction.
 
 ## Features
 
-- Utilizes the FinRL library for stock trading environment setup
+- Utilizes the FinRL library for pre-built models
 - Implements multiple RL algorithms including A2C and PPO
 - Trains models on historical stock data
 - Saves trained models for future use

@@ -7,7 +7,7 @@ This project implements a reinforcement learning-based stock trading system usin
 ## Features
 
 - Utilizes the FinRL library for pre-built models
-- Implements multiple RL algorithms including A2C and PPO
+- Implements multiple RL algorithms including A2C, PPO, and SAC
 - Trains models on historical stock data
 - Saves trained models for future use
 

@@ -1,6 +1,6 @@
-# Reinforced Learning Market Predictor
+# Reinforced Learning Stock Trader
 
-# FinRL Market Prediction Project
+# FinRL Stock Trading Project
 
 This project implements a reinforcement learning-based stock trading system using the FinRL library. It trains and evaluates various RL algorithms for market trend prediction.
 
